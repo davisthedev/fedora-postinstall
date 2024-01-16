@@ -39,9 +39,9 @@ rm "${font_dir}/JetBrainsMono.zip"
 
 fc-cache -fv
 
-curl -sS https://starship.rs/install.sh | sh
-
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+curl -sS https://starship.rs/install.sh | sh
 
 LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
 
