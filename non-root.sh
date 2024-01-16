@@ -16,8 +16,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 git clone https://github.com/catppuccin/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes 
 
-cp -v catppuccin_mocha-zsh-syntax-highlighting.zsh ~/.zsh/
-
 git clone https://github.com/davisthedev/.dotfiles.git
 
 rm .zshrc
