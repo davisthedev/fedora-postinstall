@@ -32,10 +32,6 @@ fi
 
 dnf copr enable atim/lazygit -y
 
-# OpenH264 for Firefox
-dnf config-manager --set-enabled fedora-cisco-openh264
-dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264
-
 systemctl disable NetworkManager-wait-online.service
 
 rm /etc/xdg/autostart/org.gnome.Software.desktop
